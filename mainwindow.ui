@@ -28,7 +28,7 @@
     background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1, stop:0 #0f2027, stop:1 #2c5364);
 }
 
-/* Специальный класс для центрального виджета (если нужно) */
+
 .central-widget {
     background: transparent;
     padding: 0;
@@ -36,7 +36,7 @@
     border: none;
 }
 
-/* Коррекция для таблицы */
+
 QTableWidget {
     background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1, stop:0 #1e3c72, stop:1 #2a5298);
     border: 2px solid #1e3c72;
@@ -48,7 +48,7 @@ QTableWidget {
     padding: 0; /* Убираем внутренние отступы */
 }
 
-/* Фикс для заголовков таблицы */
+
 QHeaderView::section {
     padding: 8px 12px; /* Четкие отступы для заголовков */
     background-color: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop:0 #1e3c72, stop:1 #2a5298);
@@ -58,7 +58,7 @@ QHeaderView::section {
     font-weight: bold;
 }
 
-/* Дополнительный фикс для выравнивания */
+
 QTableCornerButton::section {
     background-color: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop:0 #1e3c72, stop:1 #2a5298);
     border: none;
@@ -424,25 +424,25 @@ QLabel:disabled {
     selection-color: white;
 }
 
-/* Состояние при наведении */
+
 QLineEdit:hover {
     background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1, stop:0 #2a5298, stop:1 #1e3c72);
     border: 2px solid #4a90e2;
 }
 
-/* Состояние фокуса (активное поле) */
+
 QLineEdit:focus {
     border: 2px solid #4a90e2;
     background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1, stop:0 #2a5298, stop:1 #1e3c72);
 }
 
-/* Placeholder-текст */
+
 QLineEdit::placeholder {
     color: rgba(255, 255, 255, 0.5);
     font-style: italic;
 }
 
-/* Неактивное состояние */
+
 QLineEdit:disabled {
     background-color: #cccccc;
     border: 2px solid #999999;
@@ -481,25 +481,25 @@ QLineEdit:disabled {
     selection-color: white;
 }
 
-/* Состояние при наведении */
+
 QLineEdit:hover {
     background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1, stop:0 #2a5298, stop:1 #1e3c72);
     border: 2px solid #4a90e2;
 }
 
-/* Состояние фокуса (активное поле) */
+
 QLineEdit:focus {
     border: 2px solid #4a90e2;
     background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1, stop:0 #2a5298, stop:1 #1e3c72);
 }
 
-/* Placeholder-текст */
+
 QLineEdit::placeholder {
     color: rgba(255, 255, 255, 0.5);
     font-style: italic;
 }
 
-/* Неактивное состояние */
+
 QLineEdit:disabled {
     background-color: #cccccc;
     border: 2px solid #999999;
